@@ -9,7 +9,7 @@ every p on the page gets styled
 */
 
 /* this styles a inside of a p tag
-    its called a descendant selector */
+    its called a descendant selector */ 
 p a{color: #8fbc8f;}
 
 /* this styles the id */
