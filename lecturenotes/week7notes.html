@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS</title>
+    <style>
+        h2 {background-color: #76af86;}
+        /* from now on you will use hexadecimal colors because they load faster in the browser */
+        a:visited {color: #00ff00;}
+        a:hover {background-color: #efefef;}
+        /* pseudo selector, you need the : */
+        body {background-color: #9a6f43;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url("otto.png");
+            /* background images repeat */
+            background-size: 20%;
+            /* sizing background image */
+        }
+        .bgimage {background-image: url("otto.png");}
+        .box {background-color: #ffffff;
+            border: 5px solid #ff294d;
+            /* border is a combo property */
+            padding: 30px;
+            /* padding is space inside the border */
+            margin: 30px;}
+            /* margin is space outside the border */
+    </style>
+</head>
+<body>
+    <h1>More CSS</h1>
+        <h2>Hexadecimal Colors</h2>
+        <h2>Pseudo Selectors</h2>
+            <a href="http://www.microsoft.com">microsoft</a>
+            <a href="http://www.apple.com">Apple</a>
+        <h2>Background Images</h2>
+            <p class="bgimage">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt sed doloremque itaque veritatis consequatur ut praesentium, est consectetur eius facilis facere ea aliquam asperiores vero accusamus iste recusandae vitae?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eaque nostrum eum exercitationem officiis, dolor dolorum distinctio ducimus odio reprehenderit! Illo, blanditiis? Recusandae iure libero consequuntur rerum omnis accusantium quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor ab sequi, repellat modi voluptate quo dolorum ex maiores, fugiat iure esse dignissimos ipsam voluptatibus nulla nesciunt officia sit exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem provident non quae unde velit hic aspernatur exercitationem consectetur atque molestias aliquam eum dolorem quos nostrum, architecto id aut. Provident, porro!</p>
+        <h2>Box Model</h2>
+            <p class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis, maiores quasi nulla praesentium quas architecto voluptas laborum ea id qui rem, quae dignissimos commodi aliquam! Reiciendis autem accusantium laudantium!</p>
+
+</body>
+</html>
