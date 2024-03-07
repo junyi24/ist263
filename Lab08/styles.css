@@ -1,0 +1,10 @@
+body {background-color: #d7fdae;}
+p {color: #404bc6;}
+a {color: #ca3cc8;}
+h1 {color: #65895d;}
+h2 {color: #02ac4b;}
+nav {background-color: #f1f440;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a {color: #746e6e;}
+nav a:hover {background-color: #54d5dc;}
