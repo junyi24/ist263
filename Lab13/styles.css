@@ -1,0 +1,46 @@
+body {background-color: #d7fdae;}
+p {color: #404bc6;}
+a {color: #ca3cc8;}
+h1 {color: #65895d;}
+h2 {color: #02ac4b;}
+nav {background-color: #f1f440;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a {color: #746e6e;}
+nav a:hover {background-color: #54d5dc;}
+.title {text-align: center;}
+.skills {display: flex;
+flex: 75%;
+justify-content: space-evenly;}
+.other {
+background-color: #b3edf7;
+border-radius: 30px;
+padding: 30px;}
+.flexbox {display: flex;
+margin: 70px;}
+.flex2 {flex: 25%;
+padding: 50px;}
+.content {margin: 100px;}
+.intro {margin-bottom: 40px; 
+flex: 75%;}
+.extrapoints {display: flex; margin: 70px;}
+.nothing {flex: 25%;}
+.img1 {max-width: 100%;}
+.r2 {flex-wrap: wrap;}
+@media only screen and (max-width: 414px) {
+nav a {max-width: 100%;}
+span {display: none;}
+a {display: block;}
+}
+.skip {
+    background-color: #ffa500;
+    padding: 8px;
+    border: 2px solid #000000;
+    text-decoration: none;
+    position: absolute; /* positions relative to top and bottom of viewport */
+    top: 10px;
+    left: -999px; /* push the button off screen */
+}
+.skip:focus { /* when the button if tabbed to */
+    left: 10px; 
+}
