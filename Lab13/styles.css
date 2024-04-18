@@ -1,19 +1,19 @@
 body {background-color: #d7fdae;}
-p {color: #404bc6;}
-a {color: #ca3cc8;}
-h1 {color: #65895d;}
-h2 {color: #02ac4b;}
+p {color: #3f4eea;}
+a {color: #b91eb7;}
+h1 {color: #4f6f48;}
+h2 {color: #03843b;}
 nav {background-color: #f1f440;
     padding: 10px;
     margin-bottom: 30px;}
-nav a {color: #746e6e;}
-nav a:hover {background-color: #54d5dc;}
+nav a {color: #535050;}
+nav a:hover {background-color: #398a8e;}
 .title {text-align: center;}
 .skills {display: flex;
 flex: 75%;
 justify-content: space-evenly;}
 .other {
-background-color: #b3edf7;
+background-color: #40a3b5;
 border-radius: 30px;
 padding: 30px;}
 .flexbox {display: flex;
