@@ -39,7 +39,7 @@ a {display: block;}
     text-decoration: none;
     position: absolute; /* positions relative to top and bottom of viewport */
     top: 10px;
-    left: -999px; /* push the button off screen */
+    left: -999px; /* push the button off screen */ 
 }
 .skip:focus { /* when the button if tabbed to */
     left: 10px; 
