@@ -7,7 +7,7 @@ nav {background-color: #f6f6ee;
     padding: 10px;
     margin-bottom: 30px;}
 nav a {color: #535050;}
-/* nav a:hover {background-color: #674545;} */
+nav a:hover {background-color: #674545;} 
 .title {text-align: center;}
 .skills {display: flex;
 flex: 75%;
@@ -33,7 +33,7 @@ span {display: none;}
 a {display: block;}
 }
 .skip {
-    background-color: #472f03;
+    background-color: #f8e50f;
     padding: 8px;
     border: 2px solid #000000;
     text-decoration: none;
