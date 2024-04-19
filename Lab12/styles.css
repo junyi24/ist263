@@ -7,10 +7,10 @@ nav {background-color: #f1f440;
     padding: 10px;
     margin-bottom: 30px;}
 nav a {color: #746e6e;}
-nav a:hover {background-color: #54d5dc;}
+nav a:hover {background-color: #328a8f;}
 .title {text-align: center;}
 .skills {display: flex;
-flex: 75%;
+flex: 75%; 
 justify-content: space-evenly;}
 .other {
 background-color: #b3edf7;
